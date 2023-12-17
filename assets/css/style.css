@@ -1,0 +1,55 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #326dee;
+  margin-bottom: 0.75rem;
+}
+
+a {
+  color: #1ac886;
+}
+
+button {
+  color: white;
+  border: 0;
+  background-color: #1ac886;
+  border-radius: 2rem;
+  padding: 0.75rem;
+}
+
+.error {
+  color: #d32752;
+  border-color: #d32752;
+  border-style: solid;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 2rem;
+  border-width: 0.1rem;
+}
+
+.notification {
+  color: #1ac886;
+  border-color: #1ac886;
+  border-style: solid;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 2rem;
+  border-width: 0.1rem;
+}
