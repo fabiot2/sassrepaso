@@ -1,3 +1,35 @@
-@use 'reset';
-@use 'global';
+//  Variables & Functions
+@import 'variables';
 
+//  Global Layout
+@import 'global';
+
+//  colors
+
+//  components (button, card, navbar)
+
+//  Utilities (margin, padding, opacity)
+
+body {
+    background-color: white;
+}
+
+.error {
+    color: $error;
+    border-color: $error;
+    border-style: solid;
+    margin:$base-margin;
+    padding:$base-padding;
+    border-radius: $base-border-radius;
+    border-width: $base-border-thickness;
+}
+
+.notification {
+    color: $secondary;
+    border-color: $secondary;
+    border-style: solid;
+    margin:$base-margin;
+    padding: $base-padding;
+    border-radius: $base-border-radius;
+    border-width: $base-border-thickness;
+}
