@@ -17,13 +17,22 @@ a {
     text-decoration: none;
 }
 
+hr {
+    border: 0;
+    border-block-start: 0.1rem dotted #efefef;
+}
+
+img {
+    max-width: 100%;
+}
+
+.test {
+    color: $primary;
+}
+
 h1 {
     color: $primary;
     margin-bottom: $base-margin;
-}
-
-a {
-    color: $secondary;
 }
 
 button {

@@ -7,29 +7,32 @@
 //  colors
 
 //  components (button, card, navbar)
+@import 'components/card';
 
 //  Utilities (margin, padding, opacity)
 
-body {
-    background-color: white;
-}
 
-.error {
-    color: $error;
-    border-color: $error;
-    border-style: solid;
-    margin:$base-margin;
-    padding:$base-padding;
-    border-radius: $base-border-radius;
-    border-width: $base-border-thickness;
-}
 
-.notification {
-    color: $secondary;
-    border-color: $secondary;
-    border-style: solid;
-    margin:$base-margin;
-    padding: $base-padding;
-    border-radius: $base-border-radius;
-    border-width: $base-border-thickness;
-}
+// body {
+//     background-color: white;
+// }
+
+// .error {
+//     color: $error;
+//     border-color: $error;
+//     border-style: solid;
+//     margin:$base-margin;
+//     padding:$base-padding;
+//     border-radius: $base-border-radius;
+//     border-width: $base-border-thickness;
+// }
+
+// .notification {
+//     color: $secondary;
+//     border-color: $secondary;
+//     border-style: solid;
+//     margin:$base-margin;
+//     padding: $base-padding;
+//     border-radius: $base-border-radius;
+//     border-width: $base-border-thickness;
+// }
