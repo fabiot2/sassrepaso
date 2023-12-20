@@ -2584,13 +2584,11 @@ button {
   padding: 0.75rem;
   border: 0.1rem solid #ddd;
   box-shadow: 0.1rem 0.3rem 0.5rem rgba(0, 0, 0, 0.1);
-  max-width: 40rem;
-  margin-block-start: 3rem;
   border-radius: 0.5rem;
 }
 .card .card-title {
-  font-size: 2.4rem;
-  padding-block-end: 0.75rem;
+  font-size: 1.6rem;
+  padding-bottom: 0.75rem;
   font-weight: bold;
 }
 .card .card-body {
